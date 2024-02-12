@@ -27,7 +27,7 @@
                     <li><a href="{{ route('movies') }}" class="">MOVIES</a></li>
                     <li><a href="{{ route('tv') }}" class="">TV</a></li>
                     <li><a href="{{ route('games') }}" class="">GAMES</a></li>
-                    <li>COLLECTIBLES</li>
+                    <li><a href="{{ route('collectibles') }}" class="">COLLECTIBLES</a></li>
                     <li>VIDEOS</li>
                     <li>FANS</li>
                     <li>NEWS</li>
