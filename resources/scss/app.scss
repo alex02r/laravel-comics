@@ -7,4 +7,18 @@ header{
             width: 70px;
         }
     }
+    .my-list{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        height: 100%;
+        list-style: none;
+        li{
+            font-weight: 600;
+            cursor: pointer;
+            &:hover{
+                color: rgb(20, 90, 255);
+            }
+        }
+    }
 }
