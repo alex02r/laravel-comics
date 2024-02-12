@@ -51,3 +51,12 @@ header{
         color: white;
     }
 }
+// FOOTER
+footer{
+    background-image: url('../images/footer-bg.jpg');
+    .bg-footer{
+        height: 500px;
+        background-image: url('../images/dc-logo-bg.png');
+        background-size: cover;
+    }
+}
