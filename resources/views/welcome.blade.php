@@ -35,6 +35,9 @@
                         </div>
                     </div>
                 @endforeach
+                <div class="col-12 text-center">
+                    <span class="btn btn-primary py-1 px-4 rounded-1">LOAD MORE</span>
+                </div>
             </div>
 
         </div>
