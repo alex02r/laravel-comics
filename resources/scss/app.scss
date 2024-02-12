@@ -29,3 +29,15 @@ header{
     background-image: url('../images/jumbotron.jpg');
     background-size: cover;
 }
+.comic{
+    .comic-img{
+        margin: 10px 0;
+        img{
+            width: 200px;
+            height: 250px;
+        }
+    }
+    .comic-title{
+        color: white;
+    }
+}
