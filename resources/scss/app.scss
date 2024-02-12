@@ -40,3 +40,14 @@ header{
         color: white;
     }
 }
+.item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    img{
+        width: 50px;
+    }
+    h6{
+        color: white;
+    }
+}
