@@ -61,10 +61,12 @@
         </div>
     </div>
     <div class="bg-dark">
-        <div class="container">
+        <div class="container py-5">
             <div class="row">
                 <div class="col-3">
-                    {{-- BTN --}}
+                    <span class="my-btn">
+                        SIGN-UP NOW!
+                    </span>
                 </div>
                 <div class="col-6">
                     {{-- follow us --}}
