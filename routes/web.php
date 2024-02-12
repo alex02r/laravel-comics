@@ -25,3 +25,7 @@ Route::get('/characters', function () {
 Route::get('/movies', function () {
     return view('movies');
 })->name('movies');
+
+Route::get('/tv', function () {
+    return view('tv');
+})->name('tv');
