@@ -22,7 +22,7 @@
             <div class="col-10">
                 {{-- nav menu --}}
                 <ul class="my-list">
-                    <li>CHARACTERS</li>
+                    <li><a href="{{route('characters')}}">CHARACTERS</a></li>
                     <li>COMICS</li>
                     <li>MOVIES</li>
                     <li>TV</li>
