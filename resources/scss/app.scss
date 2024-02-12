@@ -59,4 +59,16 @@ footer{
         background-image: url('../images/dc-logo-bg.png');
         background-size: cover;
     }
+    .lists-group{
+        display: flex;
+        gap: 30px ;
+        margin: 20px 0;
+        color: white;
+        .footer-list ul{
+            padding-left: 0;
+            list-style: none;
+            color: #717171;
+            font-size: 14px; 
+        }
+    }
 }
