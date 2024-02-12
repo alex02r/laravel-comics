@@ -50,9 +50,12 @@
                         </ul>
                     </div>
                 </div>
+                <p class="text-secondary">
+                    All site Content TM and &copy; 2020 DC Entertainments, unless otherwiste <span class="text-primary">noted here</span>. All rights reversed. <br> 
+                    <span class="text-primary">Cookies Settings</span>
+                </p>
             </div>
             <div class="col-6">
-                {{-- img side --}}
                 <div class="bg-footer"></div>
             </div>
         </div>
