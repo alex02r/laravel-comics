@@ -19,13 +19,15 @@
     @include('partials.header')
     <main class="bg-dark">
         <div class="jumbo">
-            
+
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h1 class="text-white">Home</h1>
-                </div>
+                @foreach ($comics as $comic)
+                    <div class="col-6 col-md-4 col-lg-2">
+                        
+                    </div>
+                @endforeach
             </div>
 
         </div>
