@@ -55,7 +55,7 @@ header{
 footer{
     background-image: url('../images/footer-bg.jpg');
     .bg-footer{
-        height: 500px;
+        height: 100%;
         background-image: url('../images/dc-logo-bg.png');
         background-size: cover;
     }
@@ -76,5 +76,10 @@ footer{
         border: 2px solid rgb(20, 90, 255);
         font-size: 20px;
         color: white;
+        cursor: pointer;
+        transition: 0.8s;
+        &:hover{
+            background-color: rgb(20, 90, 255);
+        }
     }
 }

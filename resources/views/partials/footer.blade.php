@@ -62,14 +62,31 @@
     </div>
     <div class="bg-dark">
         <div class="container py-5">
-            <div class="row">
+            <div class="row justify-content-between">
                 <div class="col-3">
                     <span class="my-btn">
                         SIGN-UP NOW!
                     </span>
                 </div>
-                <div class="col-6">
-                    {{-- follow us --}}
+                <div class="col-4">
+                    <div class="d-flex gap-3 align-items-center">
+                        <h5 class="text-primary"> FOLLOW US</h5>
+                        <div class="icon">
+                            <img src="{{Vite::asset('resources/images/footer-facebook.png')}}" alt="facebook">
+                        </div>
+                        <div class="icon">
+                            <img src="{{Vite::asset('resources/images/footer-twitter.png')}}" alt="twitter">
+                        </div>
+                        <div class="icon">
+                            <img src="{{Vite::asset('resources/images/footer-youtube.png')}}" alt="youtube">
+                        </div>
+                        <div class="icon">
+                            <img src="{{Vite::asset('resources/images/footer-pinterest.png')}}" alt="pinterest">
+                        </div>
+                        <div class="icon">
+                            <img src="{{Vite::asset('resources/images/footer-periscope.png')}}" alt="periscope">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
