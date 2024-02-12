@@ -11,10 +11,13 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container py-2">
         <div class="row">
             <div class="col-2">
                 {{-- logo --}}
+                <div class="logo">
+                    <img src="{{Vite::asset('resources/images/dc-logo.png')}}" alt="logo">
+                </div>
             </div>
             <div class="col-10">
                 {{-- nav menu --}}
