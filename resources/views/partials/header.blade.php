@@ -24,7 +24,7 @@
                 <ul class="my-list">
                     <li><a href="{{route('characters')}}">CHARACTERS</a></li>
                     <li><a href="{{ route('comics') }}" class="">COMICS</a></li>
-                    <li>MOVIES</li>
+                    <li><a href="{{ route('movies') }}" class="">MOVIES</a></li>
                     <li>TV</li>
                     <li>GAMES</li>
                     <li>COLLECTIBLES</li>
