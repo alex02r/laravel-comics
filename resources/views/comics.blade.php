@@ -8,14 +8,16 @@
     <div class="row row-gap-4">
         @foreach ($comics as $comic)
             <div class="col-6 col-md-4 col-lg-2">
-                <div class="comic">
-                    <div class="comic-img">
-                        <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+                <a href="{{ route('comic', [$comic['id']]) }}">
+                    <div class="comic">
+                        <div class="comic-img">
+                            <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+                        </div>
+                        <div class="comic-title">
+                            {{$comic['title']}}
+                        </div>
                     </div>
-                    <div class="comic-title">
-                        {{$comic['title']}}
-                    </div>
-                </div>
+                </a>
             </div>
         @endforeach
         <div class="col-12 text-center">
