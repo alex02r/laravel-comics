@@ -33,14 +33,32 @@
             </div>
         </div>
     </div>
-    <div class="bg-secondary">
-        <div class="container">
+    <div class="bg-specs">
+        <div class="container py-4">
             <div class="row">
                 <div class="col-6">
-                    {{-- talent --}}
+                    <h3>Talent</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <h6>Art by:</h6>
+                        </div>
+                        <div class="col-8">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam, perspiciatis quidem repudiandae possimus distinctio accusamus omnis provident quos eius incidunt
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <h6>Written by:</h6>
+                        </div>
+                        <div class="col-8">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam, perspiciatis quidem repudiandae possimus distinctio accusamus omnis provident quos eius incidunt
+                        </div>
+                    </div>
                 </div>
                 <div class="col-6">
-                    {{-- specs --}}
+                    <h3>Specs</h3>
                 </div>
             </div>
         </div>
