@@ -7,10 +7,15 @@
     <div class="container py-5">
         <div class="row">
             <div class="col-8">
-                {{-- SPESC COMIC --}}
+                <h2>{{ $item['title'] }}</h2>
+                {{-- tabella verde --}}
+                <p>{{ $item['description'] }}</p>
             </div>
             <div class="col-4">
-                {{-- ADVERTISEMENT --}}
+                <div class="text-end">
+                    <h6 class="text-secondary">ADVERTISEMENT</h6>
+                    <img src="{{Vite::asset('resources/images/adv.jpg')}}" alt="adv">
+                </div>
             </div>
         </div>
     </div>
