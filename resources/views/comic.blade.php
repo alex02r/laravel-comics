@@ -1,4 +1,4 @@
-@extends('layout.mockup')
+@extends('layout.mockup-comic')
 
 @section('content')
     <div class="jumbo">
