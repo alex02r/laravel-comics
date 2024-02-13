@@ -51,6 +51,28 @@ header{
         color: white;
     }
 }
+
+//COMIC
+.bg-comic{
+    height: 80px;
+    background-color: rgb(20, 90, 255);
+    .thumb-comic{
+        position: relative;
+        .thumb-img{
+            position: absolute;
+            bottom: - 50px;
+            .thumb-type{
+                position: absolute;
+                padding: 0 10px;
+                background-color: rgb(20, 90, 255);
+            }
+            img{
+                height: 300px;
+            }
+        }
+    }
+}
+
 // FOOTER
 footer{
     background-image: url('../images/footer-bg.jpg');

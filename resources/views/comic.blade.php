@@ -4,6 +4,20 @@
     <div class="jumbo">
         
     </div>
+    <div class="bg-comic">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="thumb-comic">
+                        <div class="thumb-img">
+                            <span class="thumb-type">{{ strtoupper($item['type']) }}</span>
+                            <img src="{{ $item['thumb']}}" alt="{{ $item['title'] }}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container py-5">
         <div class="row">
             <div class="col-8">
