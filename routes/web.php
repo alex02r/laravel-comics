@@ -53,3 +53,15 @@ Route::get('/news', function () {
 Route::get('/shop', function () {
     return view('shop');
 })->name('shop');
+
+/* route per il singolo comic */
+Route::get('/comic/{param}', function($id){
+    $comics = config('comics');
+
+    foreach ($comics as $comic) {
+        if($comic['id'] == $id){
+            $item = $comic;
+        }
+    }
+    return view('comic', compact('item'));
+})->name('comic');
