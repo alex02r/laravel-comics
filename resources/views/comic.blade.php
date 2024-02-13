@@ -56,9 +56,38 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam, perspiciatis quidem repudiandae possimus distinctio accusamus omnis provident quos eius incidunt
                         </div>
                     </div>
+                    <hr>
                 </div>
                 <div class="col-6">
                     <h3>Specs</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <h6>Series:</h6>
+                        </div>
+                        <div class="col-8">
+                            <span class="text-primary">{{ strtoupper($item['series']) }}</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <h6>U.S. Price:</h6>
+                        </div>
+                        <div class="col-8">
+                            {{ strtoupper($item['price']) }}
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <h6>On Sale Date:</h6>
+                        </div>
+                        <div class="col-8">
+                            {{ $item['sale_date'] }}
+                        </div>
+                    </div>
+                    <hr>
                 </div>
             </div>
         </div>
